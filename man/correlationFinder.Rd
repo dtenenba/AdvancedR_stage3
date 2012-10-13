@@ -9,6 +9,15 @@ correlationFinder
 \usage{
   correlationFinder(dataFile, cor.threshold=0.85)
    }
+
+\arguments{
+  \item{dataFile}{The name of a data file to open. This should be a
+  tab-delimited text file consisting of conditions as the columns
+  and genes as the rows.}
+  \item{cor.threshold}{The threshold at which to calculate the correlation
+  matrix.}
+}
+
 \details{
   Calculates the upper triangular correlation matrix from mRNA expression
   data; identifies genes whose expression is highly correlated.
